@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- The contents of this file will be loaded for each web application -->
+<Context workDir="C:\Lecture\08_servlet\01_lecture-source\chap12-jsp-lecture-source\src\main\webapp\WEB-INF\jsp">
+
+    <!-- Default set of monitored resources. If one of these changes, the    -->
+    <!-- web application will be reloaded.                                   -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+
+    <!-- Uncomment this to enable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="SESSIONS.ser" />
+    -->
+</Context>
+
+
+<!--C:\dev\web\apache-tomcat-10.1.31\conf 에서 context.xml 붙여넣기-->
+<!--WEB_INF\jsp\org\apache\jsp\jsp\index_jsp.java : jsp라는 파일을 .java 파일로 translation-->
+<!--서블릿에서 했던 내용을 jsp 에서 뷰페이지를 만들어서 더 쉽게 만들 수 있게끔 번역및 컴파일을 해줍니다.-->
+<!--JSP : 서블릿이다. 번역과 컴파일을 마치면 서블릿이 된다. 우리가 해당하는 요청 URL 을 보냈을때 반환이 있습니다.-->
+<!--JSP : StringBuilder 나 PrintWriter 로 일일히 작성할 것을 JSP 로 대체한다-->
