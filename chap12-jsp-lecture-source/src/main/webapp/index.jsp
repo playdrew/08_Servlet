@@ -14,6 +14,7 @@
         <li><a href="jsp/2_pageDirective.jsp">Page 지시자 태그</a></li>
         <li><a href="jsp/3_includeDirective.jsp">Include 지시자 태그</a></li>
         <li><a href="jsp/4_request.jsp">jsp 를 이용한 요청처리</a></li>
+        <li><a href="jsp/6_calculatorRequest.jsp">jsp를 이용한 계산기</a></li>
     </ul>
 
 </body>

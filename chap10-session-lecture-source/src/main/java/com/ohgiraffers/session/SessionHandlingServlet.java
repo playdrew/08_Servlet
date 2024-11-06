@@ -64,7 +64,7 @@ public class SessionHandlingServlet extends HttpServlet {
         resp.sendRedirect("redirect");
 
         // 동일한 id를 가진 Session 에서는 setAttribute 로 넣어둔 값을
-        // getAttribute로 꺼낼 수 있다.
+        // getAttribute 로 꺼낼 수 있다.
 
     }
 }
